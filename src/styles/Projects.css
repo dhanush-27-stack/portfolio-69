@@ -1,0 +1,41 @@
+.projects {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem;
+  background: #121212;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #e50914;
+}
+
+.project-card {
+  background: #0a0a0a;
+  padding: 2.5rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  border: 2px solid #e50914;
+  transition: transform 0.3s ease;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  border-color: #ff4d57;
+}
+
+.project-card h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff4d57;
+}

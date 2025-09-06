@@ -1,0 +1,49 @@
+.contact {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #1a0000, #4d0000);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #ff4d4d;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 60px;
+}
+
+.contact-icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3rem; /* Large icons */
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-icons a span {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.contact-icons a:hover {
+  color: #ff4d4d;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff0000;
+}
