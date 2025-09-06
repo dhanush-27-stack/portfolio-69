@@ -1,8 +1,8 @@
 {
   "name": "portfolio-red-black",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/portfolio-red-black",
+  "homepage": "https://dhanush-27-stack.github.io/portfolio-69",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -12,10 +12,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
@@ -28,8 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }

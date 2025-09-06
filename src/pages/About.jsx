@@ -12,7 +12,7 @@ export default function About() {
           <h3>Personal Information</h3>
           <ul>
             <li><strong>Name:</strong> C. Dhanush</li>
-            <li><strong>Birthday:</strong> 27-05-2003</li>
+            <li><strong>Date of Birth:</strong> 27-05-2003</li>
             <li><strong>Phone:</strong> 9182942542</li>
             <li><strong>City:</strong> Vijayawada</li>
             <li><strong>Degree:</strong> Undergraduate</li>
