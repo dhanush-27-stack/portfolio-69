@@ -12,7 +12,7 @@ export default function Home() {
          I blend innovation, seamless performance, and meticulous detail to create websites 
          that don’t just function — they inspire.
         </p>
-        <a className="btn fade-in delay-2" href="/C.DHANUSH RESUME.pdf" download>
+        <a className="btn fade-in delay-2" href="/resume.pdf" download>
           Download Resume
         </a>
         <div className="scroll-down" aria-label="Scroll Down">
